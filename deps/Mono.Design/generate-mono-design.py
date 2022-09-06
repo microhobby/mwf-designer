@@ -40,7 +40,7 @@ def fetch_source_code (files):
                     print (exc)
 
 def file_to_url (file_):
-    return "https://raw.githubusercontent.com/mono/mono/master/mcs/" + file_
+    return "https://raw.githubusercontent.com/mono/mono/main/mcs/" + file_
 
 def get_files ():
     try:
